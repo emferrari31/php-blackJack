@@ -19,6 +19,7 @@ button {
     border: white;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    color: black;
 }
 
 .button-container {
@@ -143,6 +144,15 @@ p {
         max-height: 500px;
         max-width: 600px;
         overflow-y: scroll;
-
+    }
+    .play-again-btn {
+        padding: 10px 40px;
+        font-size: 20px;
+        background-color: white;
+        cursor: pointer;
+        border: white;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        color: black;
     }
 }
