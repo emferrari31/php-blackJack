@@ -5,10 +5,12 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 h1 {
     margin-top: 100px;
     text-align: center;
 }
+
 button {
     padding: 10px 40px;
     font-size: 20px;
@@ -18,25 +20,30 @@ button {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
+
 .button-container {
      display: flex;
      justify-content: center;
      margin-bottom: 50px;
- }
+}
+
 .both-button-container {
     display:flex;
     justify-content: center;
     gap:10px;
 }
+
 p {
     text-align: center;
 }
+
 .game-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #104610;
 }
+
 .card-image {
     max-width: 100%;
     max-height: 100%;
@@ -48,10 +55,12 @@ p {
     width: 150px;
     border-radius: 10px;
 }
+
 .cards-container {
     display: flex;
     flex-direction: row;
 }
+
 .player {
     display: flex;
     flex-direction: column;
@@ -65,8 +74,6 @@ p {
 }
 
 .play-again-btn {
-    /*width: 50px;*/
-    /*height: 20px;*/
     padding: 10px 40px;
     font-size: 20px;
     background-color: white;
@@ -75,7 +82,6 @@ p {
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
-.button:hover {background-color: #3e8e41}
 
 .play-again-btn:active {
     background-color: #3e8e41;
@@ -85,31 +91,28 @@ p {
 
 .modal {
     color: black;
-    display: none;  /* Hidden by default */
-    position: fixed; /* Fixed position, covering the entire screen */
+    display: none;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  /* Full screen width */
-    height: 100%; /* Full screen height */
+    width: 100%;
+    height: 100%;
     z-index: 9999;
-    justify-content: center;  /* Center the modal content horizontally */
-    align-items: center;  /* Center the modal content vertically */
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
-
-    /* Center the modal content */
-    display: flex;  /* Enable flexbox */
-    justify-content: center;  /* Horizontally center */
-    align-items: center;  /* Vertically center */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .w3-modal-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    width: 70%; /* Adjust the modal width */
-    max-width: 800px; /* Optional: limit the max width */
-
+    width: 70%;
+    max-width: 800px;
 }
 
 .w3-container {

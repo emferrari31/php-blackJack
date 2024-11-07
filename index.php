@@ -8,13 +8,11 @@
 </head>
 <body>
 <h1>Welcome to Blackjack!</h1>
-
 <div class="both-button-container">
 <!-- Modal Trigger -->
 <div class="modal-container">
     <!-- Trigger/Open the Modal -->
-    <span><button onclick="document.getElementById('id01').style.display='flex'" class="w3-button">About</button> </span>
-
+  <button onclick="document.getElementById('id01').style.display='flex'" class="w3-button">About</button>
     <!-- The Modal -->
     <div id="id01" class="modal" style="display:none;"> <!-- Initially hidden modal -->
         <div class="w3-modal-content">
@@ -139,14 +137,11 @@ if ($player2Score <= 14) {
             <?php foreach ($player1Cards as $card): ?>
                 <div class="card">
                     <img src="<?= $card['svg'] ?>" alt="<?= $card['name'] ?> of <?= $card['suit'] ?>" class="card-image">
-<!--                    <p class="card-value">--><?php //= $card['name'] ?><!--</p>-->
-<!--                    <p class="card-suit">--><?php //= $card['suit'] ?><!--</p>-->
                 </div>
             <?php endforeach; ?>
         </div>
         <p>Total Points: <?= $player1Score ?></p>
     </section>
-
     <!-- Player 2 Section -->
     <section class="player">
         <h2>Player 2</h2>
